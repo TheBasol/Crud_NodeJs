@@ -1,5 +1,5 @@
 {
-  "name": "06--restserver",
+  "name": "08--JsonWebToken",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -17,6 +17,7 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.8"
   }
 }

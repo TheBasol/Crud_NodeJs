@@ -79,6 +79,7 @@ const usuariosDelete = async(req,res, response) => {
 
     //Borrar cambiando el estado a false
     const usuario = await Usuario.findByIdAndUpdate( id, { estado : false } )
+    const usuarioAutenticdo = req.usuario;
 
     res.json({usuario})
 }
